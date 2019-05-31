@@ -11,13 +11,11 @@ function makeCounter() {
     count: function() {
       return currentCount++;
     },
-
     set: function(value) {
       return currentCount = value;
     },
-
     reset: function() {
       return currentCount = 0;
     }
-  };
+  }
 }
